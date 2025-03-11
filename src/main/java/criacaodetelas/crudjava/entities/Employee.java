@@ -34,10 +34,10 @@ public class Employee {
     }
 
     public double NetSalary(){
-        return grosssalary - grosssalary * (tax / 100);
+        return grosssalary - tax;
     }
     public  double IncreaseSalary(){
-        return NetSalary() +((NetSalary() * percentage) /100);
+        return NetSalary() +((NetSalary()* percentage) /100);
 
     }
 

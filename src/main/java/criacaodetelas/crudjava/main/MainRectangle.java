@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class MainRectangle extends Application {
+public class    MainRectangle extends Application {
     Stage janela;
     @Override
     public void start(Stage stage) throws Exception {
